@@ -26,15 +26,11 @@ const Products = () => {
         setSearch(e.target.value)
         const filtered = prods.filter(prod => prod.name.toLowerCase().includes(e.target.value.toLowerCase()))
         setFilter(filtered)
+
     }
 console.log(filter)
 
 
-const styles = {
-  container: {
-      backgroundImage: `http://www.baharatcifatihsude.com.tr/resimler/banner/1519820465.jpg`
-  }
-};
 
   return (
     <div >
@@ -50,7 +46,7 @@ const styles = {
  
     </div>
     <div>
-      <TextField id="search" label="Ara" onChange={handleSearch} style={{marginTop: "10px"}} />
+      <TextField id="search" label="Ara" value={search} onChange={handleSearch} style={{marginTop: "10px"}} />
     </div>
     <div >
       
