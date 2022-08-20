@@ -4,7 +4,7 @@ const products = [
         name: 'Vanilya',
         price: '₺75',
         unit: '75gr',
-        image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+        image: require('../src/img/baharat.png'),
 
     },
     {
@@ -52,7 +52,7 @@ id: 7,
 name: 'Corek Otu',
 price: '₺20',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('../src/img/baharat.png'),
 
 },
 {
@@ -84,7 +84,7 @@ id: 11,
 name: 'Susam',
 price: '₺20',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('../src/img/baharat.png'),
 
 },
 {
