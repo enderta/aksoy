@@ -35,7 +35,9 @@ console.log(filter)
   return (
     <div >
      
-    <div className="container">
+    <div className="container"  >
+   
+    
     <br/>
     <br/>
     <br/>
@@ -87,7 +89,7 @@ console.log(filter)
          </div>
           
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        <Container sx={{ py: 8 }} maxWidth="md" >
             <Grid container spacing={4}>
             {
                 filter.map((item) => {
