@@ -39,6 +39,7 @@ const styles = {
 
   return (
     <div >
+     
     <div className="container">
     <br/>
     <br/>
@@ -46,6 +47,7 @@ const styles = {
     <br/>
     <br/>
     <br/>
+    
  
     </div>
     <div>
@@ -72,10 +74,8 @@ const styles = {
             >
               Aksoy Baharat
             </Typography>
-            <Typography variant="h5" align="center" color="text.secondary">
-              Something short and leading about the collection below—its contents,
-              the creator, etc. Make it short and sweet, but not too short so folks
-              don&apos;t simply skip over it entirely.
+            <Typography variant="h4" align="center" color="text.secondary">
+            Birinci sınıf Maraş baharatları ağzının tadını bilenler için
             </Typography>
             <Typography variant="h4" align="center" color="text.secondary" paragraph>
              Siparis Hatti:#######
@@ -101,13 +101,14 @@ const styles = {
                     <Card
                   sx={{ height: '100%',weight:'100% ',display: 'flex', flexDirection: 'column' }}
                 >
+               
                   <CardMedia
                     component="img"
                     sx={{
                       // 16:9
                       
                     }}
-                    image={item.image}
+                    image={(item.image)}
                     alt="random"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>

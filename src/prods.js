@@ -12,7 +12,7 @@ const products = [
         name: 'Haşhaş',
         price: '₺20',
         unit: '250gr',
-        image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+        image: require('./img/hasha.jpg'),
 
     },
 {
@@ -20,7 +20,7 @@ id: 3,
 name: 'Tavuk Baharat',
 price: '₺17.5',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/tavukbaharati.jpg'),
 
 },
 {
@@ -28,7 +28,7 @@ id: 4,
 name: 'Pul Biber',
 price: '₺15',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/acipul.jpg'),
 
 },
 {
@@ -36,7 +36,7 @@ id: 5,
 name: 'Karabiber',
 price: '₺35',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/karabiber.jpg'),
 
 },
 {
@@ -44,7 +44,7 @@ id: 6,
 name: 'Kimyon',
 price: '₺35',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/kimyon.jpg'),
 
 },
 {
@@ -60,15 +60,15 @@ id: 8,
 name: 'Isot',
 price: '₺15',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/isot.jpg'),
 
 },
 {
 id: 9,
-name: 'Kakao',
-price: '₺25',
-unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+name: 'Bugday Nisastasi',
+price: '₺20',
+unit: '500gr',
+image:require('./img/bugdaynisastasi.jpg'),
 
 },
 {
@@ -76,14 +76,14 @@ id: 10,
 name: 'Tatli Toz Biber',
 price: '₺30', 
 unit: '500gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/tatlibiber.jpg'),
 
 },
 {
 id: 11,
-name: 'Aci Toz Biber',
-price: '₺25',
-unit: '500gr',
+name: 'Susam',
+price: '₺20',
+unit: '250gr',
 image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
 
 },
@@ -92,7 +92,7 @@ id: 12,
 name: 'Kus Uzumu',
 price: '₺30',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/kusuzumu.jpg'),
 
 },
 {
@@ -100,7 +100,7 @@ id: 13,
 name: 'Sut Tozu',
 price: '₺40',
 unit: '500gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/suttozu.jpg'),
 
 },
 {
@@ -108,7 +108,7 @@ id: 14,
 name: 'Limon Tuzu',
 price: '₺20',
 unit: '250gr',
-image: 'http://www.baharatcifatihsude.com.tr/assets/images/baharat.png',
+image: require('./img/limontuzu.jpg'),
 
 },
 {
@@ -116,9 +116,28 @@ id: 15,
 name: 'Sarimsak Tozu',
 price: '₺20',
 unit: '200gr',
-image: "http://www.baharatcifatihsude.com.tr/assets/images/baharat.png",
+image: require('./img/sarimsaktozu.jpg'),
 
 
 },
+{
+id: 16,
+name: 'Hindistan Cevizi',
+price: '₺20',
+unit: '250gr',
+image: require('./img/hindistancevizi.jpg'),
+},{
+id: 17,
+name: 'Hamur Kabartma Tozu',
+price: '₺20',
+unit: '250gr',
+image: require('./img/hamurkabartmatozu.jpg'),
+},{
+id: 18,
+name: 'Nane',
+price: '₺20',
+unit: '150gr',
+image: require('./img/nane.jpg'),
+}
 ]
 export default products;
