@@ -48,7 +48,7 @@ console.log(filter)
  
     </div>
     <div>
-      <TextField id="search" label="Ara" value={search} onChange={handleSearch} style={{marginTop: "10px"}} />
+      <TextField id="search" label="Ara" value={search} onChange={handleSearch} style={{marginTop: "10px",color: "white"}} />
     </div>
     <div >
       
