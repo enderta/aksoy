@@ -1,12 +1,5 @@
 const products = [
-    {
-        id: 1,
-        name: 'Vanilya',
-        price: '₺75',
-        unit: '75gr',
-        image: require('./img/vanilya.jpg'),
-
-    },
+   
     {
         id: 2,
         name: 'Haşhaş',
@@ -97,7 +90,7 @@ image: require('./img/kusuzumu.jpg'),
 },
 {
 id: 13,
-name: 'Sut Tozu',
+name: 'St Tozu',
 price: '₺40',
 unit: '500gr',
 image: require('./img/suttozu.jpg'),
@@ -146,5 +139,13 @@ price: '₺200',
 unit: '1 Paket (25 adet)',
 image: require('./img/chakra.jpg'),
 }
+, {
+    id: 1,
+    name: 'Vanilya',
+    price: '₺10',
+    unit: '75gr',
+    image: require('./img/vanilya.jpg'),
+
+},
 ]
 export default products;
