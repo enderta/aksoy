@@ -132,14 +132,7 @@ price: '₺20',
 unit: '150gr',
 image: require('./img/nane.jpg'),
 },
-{
-id: 19,
-name:'Chakra Med Yaki',
-price: '₺200',
-unit: '1 Paket (25 adet)',
-image: require('./img/chakra.jpg'),
-}
-, {
+ {
     id: 1,
     name: 'Vanilya',
     price: '₺10',
@@ -147,5 +140,13 @@ image: require('./img/chakra.jpg'),
     image: require('./img/vanilya.jpg'),
 
 },
+{
+    id: 19,
+    name:'Chakra Med Yaki',
+    price: '₺200',
+    unit: '1 Paket (25 adet)',
+    image: require('./img/chakra.jpg'),
+    }
+    ,
 ]
 export default products;
