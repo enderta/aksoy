@@ -75,7 +75,7 @@ console.log(filter)
             Birinci sınıf Maraş baharatları ağzının tadını bilenler için
             </Typography>
             <Typography variant="h4" align="center" color="text.secondary" paragraph>
-             Siparis Hatti:#######
+             Siparis Hatti: +90 552 080 74 50
             </Typography>
             <Stack
               sx={{ pt: 4 }}

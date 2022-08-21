@@ -4,7 +4,7 @@ const products = [
         name: 'Vanilya',
         price: '₺75',
         unit: '75gr',
-        image: require('../src/img/baharat.png'),
+        image: require('./img/vanilya.jpg'),
 
     },
     {
@@ -52,7 +52,7 @@ id: 7,
 name: 'Corek Otu',
 price: '₺20',
 unit: '250gr',
-image: require('../src/img/baharat.png'),
+image: require('./img/corekotu.jpg'),
 
 },
 {
@@ -84,14 +84,14 @@ id: 11,
 name: 'Susam',
 price: '₺20',
 unit: '250gr',
-image: require('../src/img/baharat.png'),
+image: require('./img/susam.jpg'),
 
 },
 {
 id: 12,
 name: 'Kus Uzumu',
-price: '₺30',
-unit: '250gr',
+price: '₺10',
+unit: '40gr',
 image: require('./img/kusuzumu.jpg'),
 
 },
@@ -138,6 +138,13 @@ name: 'Nane',
 price: '₺20',
 unit: '150gr',
 image: require('./img/nane.jpg'),
+},
+{
+id: 19,
+name:'Chakra Med Yaki',
+price: '₺200',
+unit: '1 Paket (25 adet)',
+image: require('./img/chakra.jpg'),
 }
 ]
 export default products;
