@@ -65,16 +65,16 @@ console.log(filter)
               component="h1"
               variant="h2"
               align="center"
-              color="text.primary"
+              color="white"
               gutterBottom
               
             >
-              Aksoy Baharat
+              Aksoy Baharat ve Yöresel Ürünler 
             </Typography>
-            <Typography variant="h4" align="center" color="text.secondary">
+            <Typography variant="h4" align="center" color="white" font>
             Birinci sınıf Maraş baharatları ağzının tadını bilenler için
             </Typography>
-            <Typography variant="h4" align="center" color="text.secondary" paragraph>
+            <Typography variant="h4" align="center" color="white" paragraph>
              Siparis Hatti: +90 552 080 74 50
             </Typography>
             <Stack
