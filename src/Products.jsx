@@ -16,6 +16,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
 import TextField from '@mui/material/TextField';
+import Carousel from 'better-react-carousel'
+
 
 
 const Products = () => {
@@ -38,17 +40,25 @@ console.log(filter)
     <div className="container"  >
    
     
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    
  
     </div>
+    <div style={{marginTop: '10px'}}>
+         <Carousel cols={4} rows={1} gap={0} loop  >
+        {prods.map((item, index) => {
+            return (
+                <Carousel.Item>
+                    <img width="99%" height="600px" src={item.image} alt={item.name}  />
+                   
+                </Carousel.Item>
+            )})}
+              {/* ... */}
+    </Carousel>
+         </div>
     <div>
-      <TextField id="search" label="Ara" value={search} onChange={handleSearch} style={{marginTop: "10px",color: "white"}} />
+      <form className="search-form">
+      <input type="text" placeholder="Ara" onChange={handleSearch} style={{ height: '30px',margin:'10px',border: '2px solid black'}} />
+      </form>
+      
     </div>
     <div >
       
@@ -87,6 +97,7 @@ console.log(filter)
             </Stack>
           </Container>
          </div>
+      
           
         </Box>
         <Container sx={{ py: 8 }} maxWidth="md" >
