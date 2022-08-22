@@ -56,7 +56,7 @@ console.log(filter)
          </div>
     <div>
       <form className="search-form">
-      <input type="text" placeholder="Ara" onChange={handleSearch} style={{ height: '30px',margin:'10px',border: '2px solid black'}} />
+      <input type="text" value={search} placeholder="Ara" onChange={handleSearch} style={{ height: '30px',margin:'10px',border: '2px solid black'}} />
       </form>
       
     </div>
