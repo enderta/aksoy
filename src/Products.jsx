@@ -82,7 +82,7 @@ console.log(filter)
               Aksoy Baharat ve Yöresel Ürünler 
             </Typography>
             <Typography variant="h4" align="center" color="white" font>
-            Birinci sınıf Maraş baharatları ağzının tadını bilenler için
+            Birinci sınıf Maraş baharatları, ağzının tadını bilenler için
             </Typography>
             <Typography variant="h4" align="center" color="white" paragraph>
              Siparis Hatti: +90 552 080 74 50
@@ -92,7 +92,7 @@ console.log(filter)
               direction="row"
               spacing={2}
               justifyContent="center"
-              
+
             >
              
             </Stack>
